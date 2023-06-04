@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Agendamento - Salão de Cabeleireiro</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.10.2/fullcalendar.min.css">
+</head>
+<body>
+	<header>
+		<h1>Agendamento - Salão de Cabeleireiro</h1>
+		<nav>
+			<ul>
+				<li><a href="#">Início</a></li>
+				<li><a href="#">Serviços</a></li>
+				<li><a href="#">Sobre Nós</a></li>
+				<li><a href="#">Contato</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main>
+		<section id="banner">
+			<h2>Agende Agora!</h2>
+			<p>Obtenha o melhor atendimento e corte de cabelo para você</p>
+		</section>
+
+		<section id="agendamento">
+			<h2>Agende uma Consulta</h2>
+			<form id="agendamento-form">
+				<label for="nome">Nome Completo:</label>
+				<input type="text" id="nome" name="nome" required>
+
+				<label for="telefone">Telefone:</label>
+				<input type="tel" id="telefone" name="telefone" required>
+
+				<label for="data">Data:</label>
+				<input type="date" id="data" name="data" required>
+
+				<label for="horario">Horário:</label>
+				<input type="time" id="horario" name="horario" required>
+
+				<label for="servico">Serviço:</label>
+				<select id="servico" name="servico" required>
+					<option value="">Selecione um serviço</option>
+					<option value="corte-masculino">Corte Masculino</option>
+					<option value="corte-feminino">Corte Feminino</option>
+					<option value="coloracao">Coloração</option>
+					<option value="alisamento">Alisamento</option>
+				</select>
+
+				<input type="submit" value="Agendar">
+			</form>
+		</section>
+	</main>
+
+	<footer>
+		<p>&copy; 2023 Salão de Cabeleireiro</p>
+	</footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.10.2/fullcalendar.min.js"></script>
+
+	<script src="script.js"></script>
+
+</body>
+</html>

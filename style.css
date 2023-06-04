@@ -1,0 +1,106 @@
+/* Estilos globais */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #333;
+}
+
+header {
+	background-color: #dcdcdc;
+	padding: 20px;
+}
+
+nav ul {
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+}
+
+nav a {
+	color: #333;
+	text-decoration: none;
+}
+
+main {
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+h1, h2 {
+	font-weight: normal;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+form label {
+	display: block;
+	margin-top: 20px;
+	font-weight: bold;
+}
+
+input[type="text"],input[type="tel"], input[type="date"], input[type="time"], select {
+    display: block;
+    margin-top: 10px;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    }
+    
+    input[type="submit"] {
+    display: block;
+    margin-top: 20px;
+    padding: 10px;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    }
+    
+    input[type="submit"]:hover {
+    background-color: #555;
+    }
+    
+    footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    }
+    
+    footer p {
+    margin: 0;
+    }
+    
+    #banner {
+    background-image: url('banner.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 50px;
+    }
+    
+    #banner h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    }
+    
+    #banner p {
+    font-size: 24px;
+    margin-bottom: 50px;
+    }
+    
+    #agendamento {
+    margin-top: 50px;
+    }
